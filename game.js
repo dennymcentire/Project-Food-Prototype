@@ -41,6 +41,7 @@ var FoodGame = function() {
 		// Ingredients
 		//name, cost, usesLeft, spoilageRate, spoilageLeft, storageType, isEdible, isCompostable
 		var carrots = new Ingredient("Carrots", 5, 0, .2, 4, "cold", true, true, 4);
+		var span = new Ingredient("Spam", 5, 0, .2, 4, "cold", true, true, 4);
 		var potatoes = new Ingredient("Potatoes", 5, 0, .1, 4, "roomTemp", false, true, 4);
 		var tomatoes = new Ingredient("Tomatoes", 25, 0, .3, 4, "cold", true, true, 4);
 		var basil = new Ingredient("Basil", 15, 0, .3, 4, "roomTemp", false, true, 4);
@@ -114,8 +115,10 @@ var FoodGame = function() {
 		leekAndPotatoSoup.states = ["chopping vegetables", "sauteing the vegetables", "adding spices", "simmering in broth"];
 		var pancakes = new Recipe("Pancakes", 0, 1, 0, 5, 10, [flour,salt,bakingPowder,milk], []);
 		pancakes.states = ["mixing ingredients", "cooking on stove"];
+		var waffles = new Recipe("Waffles", 0, 1, 0, 5, 10, [flour,salt,bakingPowder,milk], []);
+		pancakes.states = ["mixing ingredients", "cooking on stove"];
 		leekAndPotatoSoup.states = ["chopping vegetables", "sauteing the vegetables", "adding spices", "simmering in broth"];
-		this.recipes = [vegetableStew, bread, bruschetta, roastedRootVegetables, gardenSalad, leekAndPotatoSoup, pancakes];
+		this.recipes = [vegetableStew, bread, bruschetta, roastedRootVegetables, gardenSalad, leekAndPotatoSoup, pancakes, waffles];
 		
 		
 		// Player
