@@ -40,7 +40,11 @@ var FoodGame = function() {
 	
 		// Ingredients
 		//name, cost, usesLeft, spoilageRate, spoilageLeft, storageType, isEdible, isCompostable
+<<<<<<< HEAD
 		var carrots = new Ingredient("Go Away Dreamweaver", 5, 0, .2, 4, "cold", true, true, 4);
+=======
+		var carrots = new Ingredient("Spam", 5, 0, .2, 4, "cold", true, true, 4);
+>>>>>>> 8e65b603d979d546848bfb4f9cfb0a07df9936be
 		var potatoes = new Ingredient("Potatoes", 5, 0, .1, 4, "roomTemp", false, true, 4);
 		var tomatoes = new Ingredient("Tomatoes", 25, 0, .3, 4, "cold", true, true, 4);
 		var basil = new Ingredient("Basil", 15, 0, .3, 4, "roomTemp", false, true, 4);
