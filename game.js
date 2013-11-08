@@ -40,7 +40,7 @@ var FoodGame = function() {
 	
 		// Ingredients
 		//name, cost, usesLeft, spoilageRate, spoilageLeft, storageType, isEdible, isCompostable
-		var carrots = new Ingredient("Go Away Dreamweaver", 5, 0, .2, 4, "cold", true, true, 4);
+		var carrots = new Ingredient("Carrots", 5, 0, .2, 4, "cold", true, true, 4);
 		var potatoes = new Ingredient("Potatoes", 5, 0, .1, 4, "roomTemp", false, true, 4);
 		var tomatoes = new Ingredient("Tomatoes", 25, 0, .3, 4, "cold", true, true, 4);
 		var basil = new Ingredient("Basil", 15, 0, .3, 4, "roomTemp", false, true, 4);
