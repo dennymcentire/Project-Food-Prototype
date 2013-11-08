@@ -37,6 +37,7 @@ var FoodGame = function() {
 	this.updateDisplay();
 }; FoodGame.prototype = {
 	init: function() {
+	
 		// Ingredients
 		//name, cost, usesLeft, spoilageRate, spoilageLeft, storageType, isEdible, isCompostable
 		var carrots = new Ingredient("Go Away Dreamweaver", 5, 0, .2, 4, "cold", true, true, 4);
