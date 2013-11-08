@@ -853,7 +853,6 @@ var FoodGame = function() {
 		}
 		gameHTML += "</div>";
 		
-		
 		// Dwelling info/
 		gameHTML += "<div id='dwelling'><h2>Your Home</h2>";
 		gameHTML += "Compost Bin: " + this.compostBin.output();
